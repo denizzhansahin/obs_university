@@ -10,7 +10,9 @@ SQL-SERVER Windows kurulumu için resmi Microsoft kaynağını inceleyiniz:
          
          https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-2017
 
-Eğer Linux kullanıcısı iseniz, SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
+Eğer Linux kullanıcısı iseniz, SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : 
+
+         https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
 
 SQL-SERVER Linux Kurulumu:
 
