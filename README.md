@@ -9,11 +9,6 @@ V 0.0.1 Sürüm Notları:
   5. OgrenciVeriTabani üzerinde AkademisyenYuksekLisansVeriTablosu tablosu oluşturulması.
   6. OgrenciVeriTabani üzerinde AkademisyenDoktoraVeriTablosu tablosu oluşturulması.
   7. Öğrenci ekleme(Öğrenci ID, Kimlik ID, İsim, Soyisim, Adres, Telefon Numarası, E-Posta,Uyruk,Cinsiyet, Şehir, Doğum Tarihi, Bölüm, Fakülte, Öğretim Türü,Öğrenci Türü,Kayıt Tarihi)
-  9. Akademisyen ekleme
-  AkademisyenKurumsalVeriTablosu için akademisyen bilgileri ekleme (Akademisyen ID, Kimlik ID, İsim, Adres, Telefon Numarası, Uyruk, Cinsiyet, Şehir, Doğum Tarihi, Görev Bilgileri, Okul E-Postası, Görev Başlana Tarihi)
-  AkademisyenEgitimVeriTablosu için akademisyen eğitim bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Öğretim Türü, Lisans Türü, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
-  AkademisyenYuksekLisansVeriTablosu için akademisyen yüksek lisans bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlangıç Tarihi, Bitirme Tarihi)
-  AkademisyenDoktoraVeriTablosu için akademisyen doktora bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
 
 Öğrenci Tablosu Olıuşturma:
 
