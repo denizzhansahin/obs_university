@@ -1,10 +1,18 @@
 # obs_university
-Üniversitelerde kullanılan Öğrenci Bilgi Sistemleri ve kurumsal olarak personel yönetimi sistemlerine benzer olarak geliştirilmekte olan bir projedir. Açık kaynak kodlu olarak deneysel çalışmalar için geliştirilmektedir. Bu projenin geliştirilmesinde SQL Server 17 Linux, Azure Data Studio, Visual Studio Code ve Pyhton3 kullanılmaktadır. Uygulamada Pyhton kütüphanesi olan pypyodbc kullanılmıştır. 
-PIP ile kurmak için : pip install pypyodbc komudunu çalıştırınız.,
+Üniversitelerde kullanılan Öğrenci Bilgi Sistemleri ve kurumsal olarak personel yönetimi sistemlerine benzer olarak geliştirilmekte olan bir projedir. Açık kaynak kodlu olarak deneysel çalışmalar için geliştirilmektedir. Bu projenin geliştirilmesinde SQL Server 17 Linux, Azure Data Studio, Visual Studio Code, Qt Creator ve Pyhton3 programlama dili kullanılmaktadır. Uygulamada Pyhton kütüphanesi olan pypyodbc kullanılmıştır. Grafik arayüz için ise Pyhton kütüphanesi olan PyQt5 kullanılmıştır.
+
+PIP ile Pypyodbc ve PyQt5 kurmak için:
 
          pip install pypyodbc
+         pip install PyQt5
 
-V 0.0.1 Sürüm Notları:
+SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
+
+SQL-SERVER Linux Kurulumu: 
+         sudo apt-get update
+         sudo apt install curl
+
+Version-0.0.1 Sürüm Notları:
   1. OgrenciVeriTabani isimli veritabanı oluşturulması
   2. OgrenciVeriTabani üzerinde OgrenciTablosu isimli tablo oluşturulması.
   3. OgrenciVeriTabani üzerinde AkademisyenKurumsalVeriTablosu tablosu oluşturulması.
