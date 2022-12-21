@@ -31,15 +31,8 @@ Azure Data Studio üzerinden SQL-Server kontrol etmek için gerekli kurulumları
          https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
 
 
-Version-0.0.1 Sürüm Notları:
-  1. OgrenciVeriTabani isimli veritabanı oluşturulması
-  2. OgrenciVeriTabani üzerinde OgrenciTablosu isimli tablo oluşturulması.
-  3. OgrenciVeriTabani üzerinde AkademisyenKurumsalVeriTablosu tablosu oluşturulması.
-  4. OgrenciVeriTabani üzerinde AkademisyenEgitimVeriTablosu tablosu oluşturulması.
-  5. OgrenciVeriTabani üzerinde AkademisyenYuksekLisansVeriTablosu tablosu oluşturulması.
-  6. OgrenciVeriTabani üzerinde AkademisyenDoktoraVeriTablosu tablosu oluşturulması.
-  7. Öğrenci ekleme
-  8. Akademisyen ekleme
+
+Projenin geliştirilmesi sürecinde paylaşılan sürümler ile ilgili bilgiler, kendi dizinleri içerisinde paylaşılmıştır. 
 
 
 Azure Data Studio üzerinden aşağıdaki SQL komutlarını çalıştırmalısınız.
