@@ -11,7 +11,10 @@ SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https:
 SQL-SERVER Linux Kurulumu:
 
          
-         wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add -
+         wget -qO- https://packages.microsoft.com/keys/microsoft.asc | sudo apt-key add - 
+         sudo add-apt-repository "$(wget -qO- https://packages.microsoft.com/config/ubuntu/20.04/mssql-server-2022.list)" 
+         sudo apt-get update 
+         sudo apt-get install -y mssql-server
 
 
 Version-0.0.1 Sürüm Notları:
