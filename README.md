@@ -29,18 +29,29 @@ SQL-SERVER Linux Kurulum Tamamlama için aşağıdaki kodu çalıştırıp Devel
 Azure Data Studio üzerinden SQL-Server kontrol etmek için gerekli kurulumları yapınız. Resmi Microsoft kaynağını inceleyiniz:
        
          https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
+
 .
+
 .
+
 .
+
 .
+
 SÜRÜM NOTLARI
 
 Projenin geliştirilmesi sürecinde paylaşılan sürümler ile ilgili bilgiler, kendi dizinleri içerisinde paylaşılmıştır. 
+
 .
+
 .
+
 .
+
 .
+
 .
+
 
 
 Azure Data Studio üzerinden aşağıdaki SQL komutlarını çalıştırmalısınız.
