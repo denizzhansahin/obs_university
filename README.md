@@ -1,6 +1,7 @@
 # obs_university
 Üniversitelerde kullanılan Öğrenci Bilgi Sistemleri ve kurumsal olarak personel yönetimi sistemlerine benzer olarak geliştirilmekte olan bir projedir. Açık kaynak kodlu olarak deneysel çalışmalar için geliştirilmektedir. Bu projenin geliştirilmesinde SQL Server 17 Linux, Azure Data Studio, Visual Studio Code ve Pyhton3 kullanılmaktadır. Uygulamada Pyhton kütüphanesi olan pypyodbc kullanılmıştır. 
 PIP ile kurmak için : pip install pypyodbc komudunu çalıştırınız.
+                          SELECT * FROM [OgrenciVeriTabani].[dbo].[OgrenciTablosu]pip install pypyodbc
 
 V 0.0.1 Sürüm Notları:
   1. OgrenciVeriTabani isimli veritabanı oluşturulması
