@@ -46,6 +46,7 @@ V 0.0.1 Sürüm Notları:
 
                           );
 Akademisyen Tablosu Olıuşturma:
+
                           USE OgrenciVeriTabani
                           CREATE TABLE AkademisyenKurumsalVeriTablosu
                           (
@@ -71,5 +72,4 @@ Akademisyen Tablosu Olıuşturma:
                           GorevKayitGun INT NULL,
                           GorevKayitAy INT NULL,
                           GorevKayitYil INT NULL,
-
                           );
