@@ -34,6 +34,7 @@ Azure Data Studio üzerinden SQL-Server kontrol etmek için gerekli kurulumları
 .
 .
 SÜRÜM NOTLARI
+
 Projenin geliştirilmesi sürecinde paylaşılan sürümler ile ilgili bilgiler, kendi dizinleri içerisinde paylaşılmıştır. 
 .
 .
