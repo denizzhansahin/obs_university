@@ -8,9 +8,10 @@ PIP ile Pypyodbc ve PyQt5 kurmak için:
 
 SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
 
-SQL-SERVER Linux Kurulumu: 
-         sudo apt-get update
-         sudo apt install curl
+SQL-SERVER Linux Kurulumu:
+         pip install pypyodbc
+         pip install PyQt5
+
 
 Version-0.0.1 Sürüm Notları:
   1. OgrenciVeriTabani isimli veritabanı oluşturulması
