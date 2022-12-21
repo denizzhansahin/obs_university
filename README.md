@@ -6,7 +6,11 @@ PIP ile Pypyodbc ve PyQt5 kurmak için:
          pip install pypyodbc
          pip install PyQt5
 
-SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
+SQL-SERVER Windows kurulumu için resmi Microsoft kaynağını inceleyiniz:
+         
+         https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-2017
+
+Eğer Linux kullanıcısı iseniz, SQL-SERVER Linux Kurulumu için resmi Micrsoft kaynağını inceleyiniz : https://learn.microsoft.com/en-us/sql/linux/quickstart-install-connect-ubuntu?view=sql-server-ver16
 
 SQL-SERVER Linux Kurulumu:
 
@@ -20,6 +24,10 @@ SQL-SERVER Linux Kurulum Tamamlama için aşağıdaki kodu çalıştırıp Devel
           
          sudo /opt/mssql/bin/mssql-conf setup
 
+Azure Data Studio üzerinden SQL-Server kontrol etmek için gerekli kurulumları yapınız. Resmi Microsoft kaynağını inceleyiniz:
+       
+         https://learn.microsoft.com/en-us/sql/azure-data-studio/download-azure-data-studio?view=sql-server-ver16
+
 
 Version-0.0.1 Sürüm Notları:
   1. OgrenciVeriTabani isimli veritabanı oluşturulması
@@ -32,7 +40,7 @@ Version-0.0.1 Sürüm Notları:
   8. Akademisyen ekleme
 
 
-
+Azure Data Studio üzerinden aşağıdaki SQL komutlarını çalıştırmalısınız.
 Öğrenci Tablosu Olıuşturma:
 
                           USE OgrenciVeriTabani
