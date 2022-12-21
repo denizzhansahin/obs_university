@@ -157,8 +157,14 @@ Akademisyen Doktora Tablosu Oluşturma:
                           BitisYil INT NULL,
                           );
 
-Azure Data Studio üzerinden tabloları incelemek isterseniz aşağıdaki SQL komutlarını çalıştırınız:
+Azure Data Studio üzerinden tabloları incelemek isterseniz aşağıdaki SQL komutlarını sırasıyla çalıştırınız:
 
                   SELECT * FROM [OgrenciVeriTabani].[dbo].[OgrenciTablosu]
-
+                  
                   SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenKurumsalVeriTablosu]
+                  
+                  SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenEgitimVeriTablosu]
+                  
+                  SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenYuksekLisansVeriTablosu]
+                  
+                  SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenDoktoraVeriTablosu]
