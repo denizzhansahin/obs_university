@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OBS_Project</class>
+ <widget class="QWidget" name="OBS_Project">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>650</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1086</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1086</width>
+    <height>650</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>OBS_Project</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/logo.png</normaloff>img/logo.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 81 25pt &quot;Cantarell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Öğrenci Veri Tabanı Ekleme </string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_kimlik">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>140</y>
+     <width>1061</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Öğrenci Kimlik Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="isim">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İsim</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_isim">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_soyisim">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_kimlik_id">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_adres">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>371</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="soyisim">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Soyisim</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kimlil_id">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kimlik ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="adres">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Adres Bilgisi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="tel_no">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Telefon No</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_tel_no">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_eposta">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-Posta Adresi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_eposta">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_cinsiyet">
+    <property name="geometry">
+     <rect>
+      <x>820</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cinsiyet</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_sehir">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>120</y>
+      <width>151</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Yozgat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ankara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kayseri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niğde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tokat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Çankırı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trabzon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahramanmaraş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaziantep</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_sehir">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Şehir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_uyruk">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Uyruk/Ülke</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_uyruk">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>90</y>
+      <width>151</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Türkiye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arabistan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Katar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Irak</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İran</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suriye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lübnan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Azerbaycan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kıbrıs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Türkmenistan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rusya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ukrayna</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yunanistan</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_cinsiyet">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>90</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kadın</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erkek</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_dogum_tarih">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>150</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Doğum Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox_d_gun">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>160</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_d_ay">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>160</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="comboBox_d_yil">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>160</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="groupBox_Kurumsal_kimlik">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>350</y>
+     <width>1061</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Öğrenci Kurumsal  Kimlik Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="fakulte">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fakülte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bolum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ogretim_tur">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öğretim Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ogrenci_tur">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öğrenci Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="ogrenci_id">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öğrenci ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="ogrenci_id_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="okul_eposta">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Okul E-Posta</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="okul_eposta_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="yatay">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Yatay Geçiş</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="dgs">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>DGS</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="dgs_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>90</y>
+      <width>151</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Evet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hayır</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="yata_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>890</x>
+      <y>90</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Evet</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hayır</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="kayit_tarih">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Kayıt Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="kayit_tarih_gun">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kayit_tarih_ay">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kayit_tarih_yil">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="fakulte_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mimarlık - Mühendislik Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sağlık Bilimleri Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hukuk Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tıp Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İletişim Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İlahiyat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="bolum_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Bilgiayar Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektrik - Elektronik Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Makine Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şehir Bölge Planlama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gazetecilik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ogretim_tur_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Birinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İkinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uzaktan Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yüksek Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktora</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="ogrenci_turu">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ön Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yükesek Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktora</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_bitti">
+   <property name="geometry">
+    <rect>
+     <x>950</x>
+     <y>550</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>İşlem Tamamla</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>600</y>
+     <width>301</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Denizhan Şahin   -  &lt;a href=&quot;www.denizhansahin.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.denizhansahin.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>20</y>
+     <width>191</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/logo_bozok1.png</pixmap>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

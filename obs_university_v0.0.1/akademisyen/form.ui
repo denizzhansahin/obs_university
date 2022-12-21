@@ -1,0 +1,4365 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>OBS_Akademisyen</class>
+ <widget class="QWidget" name="OBS_Akademisyen">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1700</width>
+    <height>1000</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1086</width>
+    <height>600</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1700</width>
+    <height>1000</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Akademisyen Veri Tabanı Ekleme</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>img/logo.png</normaloff>img/logo.png</iconset>
+  </property>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>30</y>
+     <width>401</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 81 25pt &quot;Cantarell&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Akademisyen Veri Tabanı Ekleme </string>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="akademisyen_kimlik">
+   <property name="geometry">
+    <rect>
+     <x>1090</x>
+     <y>150</y>
+     <width>511</width>
+     <height>711</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <property name="title">
+    <string>Akademisyen Kimlik Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="akademisyen_isim">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>İsim</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_isim_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_soyisim_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_kimlik_id_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_adres_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>371</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="toolTip">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_soyisim">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Soyisim</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_kimlik_id">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kimlik ID</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_adres">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Adres Bilgisi</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_tel_no">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>220</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Telefon No</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_tel_no_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>220</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_eposta">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>250</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>E-Posta Adresi</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="akademisyen_eposta_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>250</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_cinsiyet">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>280</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cinsiyet</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_sehir_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>310</y>
+      <width>151</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Yozgat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ankara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kayseri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niğde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tokat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Çankırı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trabzon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahramanmaraş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaziantep</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="akademisyen_sehir">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>310</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Şehir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="akademisyen_uyruk">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>280</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Uyruk/Ülke</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_uyruk_2">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>280</y>
+      <width>151</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Türkiye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Arabistan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Katar</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Irak</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İran</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Suriye</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lübnan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Azerbaycan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kıbrıs</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Türkmenistan</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Rusya</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ukrayna</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yunanistan</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_cinsiyet_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>280</y>
+      <width>131</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Kadın</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erkek</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="akademisyen_dogum_tarihi">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>340</y>
+      <width>191</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Doğum Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_dogum_tarihi_gun">
+    <property name="geometry">
+     <rect>
+      <x>200</x>
+      <y>350</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_dogum_tarihi_ay">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>350</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="akademisyen_dogum_tarihi_yil">
+    <property name="geometry">
+     <rect>
+      <x>420</x>
+      <y>350</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="kurumsal_kimlik">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>150</y>
+     <width>1061</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Akademisyen Kurumsal  Kimlik Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="fakulte_kurumsal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fakülte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="bolum_kurumsal">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kurumsal_ogretim_turu">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öğretim Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kurumsal_lisans_tur">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lisans Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kurumsal_akademisyen_id">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Akademisyen ID</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="kurumsal_akademisyen_id_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="kurumsal_eposta">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Okul E-Posta</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="kurumsal_eposta_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="gorev">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Görevi</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="gorev_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Araştırma Görevlisi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Öğretim Görevlisi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktor Öğretim Görevlisi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doçent Öğretim Görevlisi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Profesör Öğretim Görevlisi</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="kurumsal_baslama_tarih">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Başlama Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="kurumsal_baslama_tarih_gun">
+    <property name="geometry">
+     <rect>
+      <x>750</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kurumsal_baslama_tarih_ay">
+    <property name="geometry">
+     <rect>
+      <x>840</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kurumsal_baslama_tarih_yil">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>120</y>
+      <width>79</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="fakulte_kurumsal_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Mimarlık - Mühendislik Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sağlık Bilimleri Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hukuk Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tıp Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İletişim Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İlahiyat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="bolum_kurumsal_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Bilgiayar Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektrik - Elektronik Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Makine Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şehir Bölge Planlama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gazetecilik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kurumsal_ogretim_turu_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Birinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İkinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uzaktan Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yüksek Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktora</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="kurumsal_lisans_tur_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ön Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yükesek Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktora</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_bitti">
+   <property name="geometry">
+    <rect>
+     <x>1460</x>
+     <y>910</y>
+     <width>121</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>İşlem Tamamla</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>680</x>
+     <y>970</y>
+     <width>301</width>
+     <height>19</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Denizhan Şahin   -  &lt;a href=&quot;www.denizhansahin.com&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#0000ff;&quot;&gt;www.denizhansahin.com&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_3">
+   <property name="geometry">
+    <rect>
+     <x>1400</x>
+     <y>20</y>
+     <width>191</width>
+     <height>131</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>img/logo_bozok1.png</pixmap>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="egitim_akademisyen">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>330</y>
+     <width>1061</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Akademisyen Eğitim  Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="egitim_akademisyen_universite">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Üniversite</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_bolum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_ogretim">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Öğretim Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_lisans">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>120</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Lisans Türü</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_fakulte">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fakülte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_sehir">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sehir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_baslangic">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>90</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Başlama Tarihi :GG/AA/YYYY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_bitis">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bitiş Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_baslangic_gun">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_baslangic_ay">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_baslangic_yil">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_universite_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat Bozok Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erciyes Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir Ahi Evran Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas Cumhuriyet Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir Üniversitesi</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_bolum_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgiayar Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektrik - Elektronik Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Makine Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şehir Bölge Planlama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gazetecilik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_ogretim_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>90</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Birinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İkinci Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Uzaktan Öğretim</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yüksek Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Doktora</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_lisans_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>120</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lisans</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ön Lisans</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_fakulte_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık - Mühendislik Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sağlık Bilimleri Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hukuk Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tıp Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İletişim Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İlahiyat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_sehir_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ankara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kayseri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niğde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tokat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Çankırı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trabzon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahramanmaraş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaziantep</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_bitis_gun">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_bitis_ay">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_bitis_yil">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="egitim_akademisyen_kimlik_yuksek">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>510</y>
+     <width>1061</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Yüksek Lisans Eğitim  Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_uni">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Üniversite</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_bolum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_fakulte">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fakülte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_sehir">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sehir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_baslanic">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>90</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Başlama Tarihi :GG/AA/YYYY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_yuksek_bitis">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>80</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bitiş Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_baslanic_gun">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_baslanic_ay">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_baslangic_yil">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_bolum_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgiayar Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektrik - Elektronik Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Makine Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şehir Bölge Planlama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gazetecilik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_fakulte_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık - Mühendislik Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sağlık Bilimleri Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hukuk Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tıp Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İletişim Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İlahiyat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_sehir_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ankara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kayseri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niğde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tokat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Çankırı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trabzon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahramanmaraş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaziantep</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_bitis_gun">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_bitis_ay">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_bitis_yil">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_yuksek_uni_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat Bozok Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erciyes Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir Ahi Evran Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas Cumhuriyet Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir Üniversitesi</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <widget class="QGroupBox" name="egitim_akademisyen_kimlik_doktora">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>690</y>
+     <width>1061</width>
+     <height>171</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string>Doktora Lisans Eğitim  Bilgileri</string>
+   </property>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_uni">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Üniversite</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_bolum">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bölüm</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_fakulte">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>30</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Fakülte</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_sehir">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>60</y>
+      <width>111</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Sehir</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_baslama">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>90</y>
+      <width>201</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Başlama Tarihi :GG/AA/YYYY</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="egitim_akademisyen_doktora_bitis">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>110</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Bitiş Tarihi :GG/AA/YYYY&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_baslama_gun">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_baslama_ay">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_baslama_yil">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>90</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_bolum_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Bilgiayar Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Elektrik - Elektronik Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Makine Mühendisliği</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Şehir Bölge Planlama</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gazetecilik</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_fakulte_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mimarlık - Mühendislik Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sağlık Bilimleri Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Hukuk Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tıp Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İletişim Fakültesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İlahiyat</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_sehir_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>650</x>
+      <y>60</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ankara</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Adana</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>İstanbul</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kayseri</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Niğde</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Tokat</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Çankırı</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Samsun</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Trabzon</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kahramanmaraş</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Gaziantep</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_bitis_gun">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>13</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>14</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>15</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>16</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>17</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>18</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>19</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>20</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>21</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>22</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>23</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>24</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>25</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>26</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>27</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>28</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>29</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>30</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>31</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_bitis_ay">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>7</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>8</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>9</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>10</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>11</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>12</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_bitis_yil">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>120</y>
+      <width>71</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>0</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2001</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2002</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2003</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2004</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2005</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2006</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2007</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2008</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2009</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2010</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string/>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="egitim_akademisyen_doktora_uni_bilgi">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>30</y>
+      <width>371</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>-----</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Yozgat Bozok Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Erciyes Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Kırşehir Ahi Evran Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Sivas Cumhuriyet Üniversitesi</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Nevşehir Üniversitesi</string>
+     </property>
+    </item>
+   </widget>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>kurumsal_kimlik</zorder>
+  <zorder>pushButton_bitti</zorder>
+  <zorder>label_2</zorder>
+  <zorder>label_3</zorder>
+  <zorder>egitim_akademisyen</zorder>
+  <zorder>egitim_akademisyen_kimlik_yuksek</zorder>
+  <zorder>akademisyen_kimlik</zorder>
+  <zorder>egitim_akademisyen_kimlik_doktora</zorder>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
