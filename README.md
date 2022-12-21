@@ -16,6 +16,10 @@ SQL-SERVER Linux Kurulumu:
          sudo apt-get update 
          sudo apt-get install -y mssql-server
 
+SQL-SERVER Linux Kurulum Tamamlama için aşağıdaki kodu çalıştırıp Developer sürümünü seçerek devam ediniz:
+          
+         sudo /opt/mssql/bin/mssql-conf setup
+
 
 Version-0.0.1 Sürüm Notları:
   1. OgrenciVeriTabani isimli veritabanı oluşturulması
