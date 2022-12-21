@@ -8,7 +8,10 @@ V 0.0.1 Sürüm Notları:
   4. OgrenciVeriTabani üzerinde AkademisyenEgitimVeriTablosu tablosu oluşturulması.
   5. OgrenciVeriTabani üzerinde AkademisyenYuksekLisansVeriTablosu tablosu oluşturulması.
   6. OgrenciVeriTabani üzerinde AkademisyenDoktoraVeriTablosu tablosu oluşturulması.
-  7. Öğrenci ekleme(Öğrenci ID, Kimlik ID, İsim, Soyisim, Adres, Telefon Numarası, E-Posta,Uyruk,Cinsiyet, Şehir, Doğum Tarihi, Bölüm, Fakülte, Öğretim Türü,Öğrenci Türü,Kayıt Tarihi)
+  7. Öğrenci ekleme
+  8. Akademisyen ekleme
+
+
 
 Öğrenci Tablosu Olıuşturma:
 
@@ -67,4 +70,61 @@ Akademisyen Tablosu Olıuşturma:
                           GorevKayitGun INT NULL,
                           GorevKayitAy INT NULL,
                           GorevKayitYil INT NULL,
+                          );
+                          
+Akademisyen Eğitim Tablosu Oluşturma:
+
+                          USE OgrenciVeriTabani
+                          CREATE TABLE AkademisyenEgitimVeriTablosu
+                          (
+                          AkademisyenID bigint PRIMARY KEY NOT NULL,
+                          Universite varchar(50) NULL,
+                          Bolum varchar(50) NULL,
+                          OgretimTuru varchar(500) NULL,
+                          LisansTuru varchar(50) NULL,
+                          Fakulte varchar(50) NULL,
+                          Sehir varchar(50) NULL,
+                          BaslangicGun INT NULL,
+                          BaslangicAy INT NULL,
+                          BaslangicYil INT NULL,
+                          BitisGun INT NULL,
+                          BitisAy INT NULL,
+                          BitisYil INT NULL,
+
+                          );
+Akademisyen Yüksek Lisans Tablosu Oluşturma:
+
+                          USE OgrenciVeriTabani
+                          CREATE TABLE AkademisyenYuksekLisansVeriTablosu
+                          (
+                          AkademisyenID bigint PRIMARY KEY NOT NULL,
+                          Universite varchar(50) NULL,
+                          Bolum varchar(50) NULL,
+                          Fakulte varchar(50) NULL,
+                          Sehir varchar(50) NULL,
+                          BaslangicGun INT NULL,
+                          BaslangicAy INT NULL,
+                          BaslangicYil INT NULL,
+                          BitisGun INT NULL,
+                          BitisAy INT NULL,
+                          BitisYil INT NULL,
+
+                          );
+                          
+Akademisyen Doktora Tablosu Oluşturma:
+                          USE OgrenciVeriTabani
+                          CREATE TABLE AkademisyenDoktoraVeriTablosu
+                          (
+                          AkademisyenID bigint PRIMARY KEY NOT NULL,
+                          Universite varchar(50) NULL,
+                          Bolum varchar(50) NULL,
+                          Fakulte varchar(50) NULL,
+                          Sehir varchar(50) NULL,
+                          BaslangicGun INT NULL,
+                          BaslangicAy INT NULL,
+                          BaslangicYil INT NULL,
+                          BitisGun INT NULL,
+                          BitisAy INT NULL,
+                          BitisYil INT NULL,
+
                           );
