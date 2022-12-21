@@ -11,6 +11,6 @@ V 0.0.1 Sürüm Notları:
   7. Öğrenci ekleme(Öğrenci ID, Kimlik ID, İsim, Soyisim, Adres, Telefon Numarası, E-Posta,Uyruk,Cinsiyet, Şehir, Doğum Tarihi, Bölüm, Fakülte, Öğretim Türü,Öğrenci Türü,Kayıt Tarihi)
   8. Akademisyen ekleme
   9. 8.1 AkademisyenKurumsalVeriTablosu için akademisyen bilgileri ekleme (Akademisyen ID, Kimlik ID, İsim, Adres, Telefon Numarası, Uyruk, Cinsiyet, Şehir, Doğum Tarihi, Görev Bilgileri, Okul E-Postası, Görev Başlana Tarihi)
-  10.2  AkademisyenEgitimVeriTablosu için akademisyen eğitim bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Öğretim Türü, Lisans Türü, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
-  11.4  AkademisyenYuksekLisansVeriTablosu için akademisyen yüksek lisans bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlangıç Tarihi, Bitirme Tarihi)
-  12.5  AkademisyenDoktoraVeriTablosu için akademisyen doktora bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
+  10. 10.2  AkademisyenEgitimVeriTablosu için akademisyen eğitim bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Öğretim Türü, Lisans Türü, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
+  11. 11.4  AkademisyenYuksekLisansVeriTablosu için akademisyen yüksek lisans bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlangıç Tarihi, Bitirme Tarihi)
+  12. 12.5  AkademisyenDoktoraVeriTablosu için akademisyen doktora bilgileri ekleme(Akademisyen ID, Üniversite, Bölüm, Fakülte, Şehir, Başlama Tarihi, Bitirme Tarihi)
