@@ -159,12 +159,4 @@ Akademisyen Doktora Tablosu Oluşturma:
 
 Azure Data Studio üzerinden tabloları incelemek isterseniz aşağıdaki SQL komutlarını çalıştırınız:
 
-SELECT * FROM [OgrenciVeriTabani].[dbo].[OgrenciTablosu]
-
-SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenKurumsalVeriTablosu]
-
-SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenEgitimVeriTablosu]
-
-SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenYuksekLisansVeriTablosu]
-
-SELECT * FROM [OgrenciVeriTabani].[dbo].[AkademisyenDoktoraVeriTablosu]
+                  SELECT * FROM [OgrenciVeriTabani].[dbo].[OgrenciTablosu]
