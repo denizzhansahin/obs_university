@@ -5,6 +5,7 @@ PIP ile Pypyodbc ve PyQt5 kurmak için:
 
          pip install pypyodbc
          pip install PyQt5
+         pip install db-sqlite3
 
 SQL-SERVER Windows kurulumu için resmi Microsoft kaynağını inceleyiniz:
          
