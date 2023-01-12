@@ -1,7 +1,7 @@
 # obs_university
 Üniversitelerde kullanılan Öğrenci Bilgi Sistemleri ve kurumsal olarak personel yönetimi sistemlerine benzer olarak geliştirilmekte olan bir projedir. Açık kaynak kodlu olarak deneysel çalışmalar için geliştirilmektedir. Bu projenin geliştirilmesinde SQL Server 17 Linux, Azure Data Studio, Visual Studio Code, Qt Creator ve Pyhton3 programlama dili kullanılmaktadır. Uygulamada Pyhton kütüphanesi olan pypyodbc kullanılmıştır. Grafik arayüz için ise Pyhton kütüphanesi olan PyQt5 kullanılmıştır.
 
-PIP ile Pypyodbc ve PyQt5 kurmak için:
+PIP ile Pypyodbc,SQL Lite3 ve PyQt5 kurmak için:
 
          pip install pypyodbc
          pip install PyQt5
